@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head> 
         <title>박용준 웹 사이트</title>
-        <link href="./practice.css" rel="stylesheet" type="text/css"
-    </head>
+        <link href="./practice.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="add_two_numbers.js"></script>
+        <script type="text/javascript" src="what_time_is_it.js"></script>
+        </head>
     <body>
             <a href="./index.html" style="color:white">Home</a>
             <a href="./blog_list.html" style="color: white;">Blog</a>
@@ -14,6 +17,17 @@
         <h3>세번째 크기 헤드라인</h3>
         <h4>네번째 크기 헤드라인</h4>
         <h5>다섯 번째 크기 헤드라인</h5>
+        
+        <button onclick="whatTimeIsIt()">현재시간</button>
+        <br><br>
+
+        <label for="inputA">a</label>
+        <input id ="inputA" value=1 onkeyup="doSomething()">
+        <label for="inputB">b</label>
+        <input id="inputB" value=2 onkeyup="doSomething()">
+
+        <p><span id="valueA">1</span> + <span id="valueB">2</span> = <span id="valueC">3</span>
+        </p>
         <p>
             문단은 p로 쓰세요
             p는 아마도 paragraph의 앞글자를 따온 것 이겠죠?
